@@ -3,11 +3,12 @@
 ## How to run and results format
 
 In order to run this code, the following commands must be written in the terminal:
-
+<p>
 python app.py
-
+</p>
+<p>
 curl -X POST "http://localhost:8888/productionplan?filename=payload1.json"
-
+</p>
 On curl, you must put the name of the json file you want to upload. I have included payload1.json, which was given in the statement. In order to use the file, it must be in the same folder.
 
 The results are displayed on the terminal of the python file, as there is no method GET to retrieve the result and show it on the screen.
